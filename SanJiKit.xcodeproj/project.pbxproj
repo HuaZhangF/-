@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5EDEF0B1E7F64BD001477D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDEF0A1E7F64BD001477D6 /* main.m */; };
+		D5EDEF0E1E7F64BD001477D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDEF0D1E7F64BD001477D6 /* AppDelegate.m */; };
+		D5EDEF111E7F64BD001477D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDEF101E7F64BD001477D6 /* ViewController.m */; };
+		D5EDEF141E7F64BD001477D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EDEF121E7F64BD001477D6 /* Main.storyboard */; };
+		D5EDEF171E7F64BE001477D6 /* SanJiKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5EDEF151E7F64BE001477D6 /* SanJiKit.xcdatamodeld */; };
+		D5EDEF191E7F64BE001477D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EDEF181E7F64BE001477D6 /* Assets.xcassets */; };
+		D5EDEF1C1E7F64BE001477D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EDEF1A1E7F64BE001477D6 /* LaunchScreen.storyboard */; };
+		D5EDEF271E7F64BE001477D6 /* SanJiKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDEF261E7F64BE001477D6 /* SanJiKitTests.m */; };
+		D5EDEF321E7F64BE001477D6 /* SanJiKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EDEF311E7F64BE001477D6 /* SanJiKitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5EDEF231E7F64BE001477D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5EDEEFE1E7F64BD001477D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5EDEF051E7F64BD001477D6;
+			remoteInfo = SanJiKit;
+		};
+		D5EDEF2E1E7F64BE001477D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5EDEEFE1E7F64BD001477D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5EDEF051E7F64BD001477D6;
+			remoteInfo = SanJiKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5EDEF061E7F64BD001477D6 /* SanJiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanJiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EDEF0A1E7F64BD001477D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5EDEF0C1E7F64BD001477D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5EDEF0D1E7F64BD001477D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5EDEF0F1E7F64BD001477D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5EDEF101E7F64BD001477D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5EDEF131E7F64BD001477D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5EDEF161E7F64BE001477D6 /* SanJiKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SanJiKit.xcdatamodel; sourceTree = "<group>"; };
+		D5EDEF181E7F64BE001477D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5EDEF1B1E7F64BE001477D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5EDEF1D1E7F64BE001477D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EDEF221E7F64BE001477D6 /* SanJiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanJiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EDEF261E7F64BE001477D6 /* SanJiKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanJiKitTests.m; sourceTree = "<group>"; };
+		D5EDEF281E7F64BE001477D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EDEF2D1E7F64BE001477D6 /* SanJiKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanJiKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EDEF311E7F64BE001477D6 /* SanJiKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanJiKitUITests.m; sourceTree = "<group>"; };
+		D5EDEF331E7F64BE001477D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EDEF031E7F64BD001477D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EDEF1F1E7F64BE001477D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EDEF2A1E7F64BE001477D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5EDEEFD1E7F64BD001477D6 = {
+			isa = PBXGroup;
+			children = (
+				D5EDEF081E7F64BD001477D6 /* SanJiKit */,
+				D5EDEF251E7F64BE001477D6 /* SanJiKitTests */,
+				D5EDEF301E7F64BE001477D6 /* SanJiKitUITests */,
+				D5EDEF071E7F64BD001477D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EDEF071E7F64BD001477D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EDEF061E7F64BD001477D6 /* SanJiKit.app */,
+				D5EDEF221E7F64BE001477D6 /* SanJiKitTests.xctest */,
+				D5EDEF2D1E7F64BE001477D6 /* SanJiKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EDEF081E7F64BD001477D6 /* SanJiKit */ = {
+			isa = PBXGroup;
+			children = (
+				D5EDEF0C1E7F64BD001477D6 /* AppDelegate.h */,
+				D5EDEF0D1E7F64BD001477D6 /* AppDelegate.m */,
+				D5EDEF0F1E7F64BD001477D6 /* ViewController.h */,
+				D5EDEF101E7F64BD001477D6 /* ViewController.m */,
+				D5EDEF121E7F64BD001477D6 /* Main.storyboard */,
+				D5EDEF181E7F64BE001477D6 /* Assets.xcassets */,
+				D5EDEF1A1E7F64BE001477D6 /* LaunchScreen.storyboard */,
+				D5EDEF1D1E7F64BE001477D6 /* Info.plist */,
+				D5EDEF151E7F64BE001477D6 /* SanJiKit.xcdatamodeld */,
+				D5EDEF091E7F64BD001477D6 /* Supporting Files */,
+			);
+			path = SanJiKit;
+			sourceTree = "<group>";
+		};
+		D5EDEF091E7F64BD001477D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EDEF0A1E7F64BD001477D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5EDEF251E7F64BE001477D6 /* SanJiKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5EDEF261E7F64BE001477D6 /* SanJiKitTests.m */,
+				D5EDEF281E7F64BE001477D6 /* Info.plist */,
+			);
+			path = SanJiKitTests;
+			sourceTree = "<group>";
+		};
+		D5EDEF301E7F64BE001477D6 /* SanJiKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5EDEF311E7F64BE001477D6 /* SanJiKitUITests.m */,
+				D5EDEF331E7F64BE001477D6 /* Info.plist */,
+			);
+			path = SanJiKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EDEF051E7F64BD001477D6 /* SanJiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EDEF361E7F64BE001477D6 /* Build configuration list for PBXNativeTarget "SanJiKit" */;
+			buildPhases = (
+				D5EDEF021E7F64BD001477D6 /* Sources */,
+				D5EDEF031E7F64BD001477D6 /* Frameworks */,
+				D5EDEF041E7F64BD001477D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanJiKit;
+			productName = SanJiKit;
+			productReference = D5EDEF061E7F64BD001477D6 /* SanJiKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5EDEF211E7F64BE001477D6 /* SanJiKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EDEF391E7F64BE001477D6 /* Build configuration list for PBXNativeTarget "SanJiKitTests" */;
+			buildPhases = (
+				D5EDEF1E1E7F64BE001477D6 /* Sources */,
+				D5EDEF1F1E7F64BE001477D6 /* Frameworks */,
+				D5EDEF201E7F64BE001477D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5EDEF241E7F64BE001477D6 /* PBXTargetDependency */,
+			);
+			name = SanJiKitTests;
+			productName = SanJiKitTests;
+			productReference = D5EDEF221E7F64BE001477D6 /* SanJiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5EDEF2C1E7F64BE001477D6 /* SanJiKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EDEF3C1E7F64BE001477D6 /* Build configuration list for PBXNativeTarget "SanJiKitUITests" */;
+			buildPhases = (
+				D5EDEF291E7F64BE001477D6 /* Sources */,
+				D5EDEF2A1E7F64BE001477D6 /* Frameworks */,
+				D5EDEF2B1E7F64BE001477D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5EDEF2F1E7F64BE001477D6 /* PBXTargetDependency */,
+			);
+			name = SanJiKitUITests;
+			productName = SanJiKitUITests;
+			productReference = D5EDEF2D1E7F64BE001477D6 /* SanJiKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EDEEFE1E7F64BD001477D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ioskaifa;
+				TargetAttributes = {
+					D5EDEF051E7F64BD001477D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4EM292C9RV;
+						ProvisioningStyle = Automatic;
+					};
+					D5EDEF211E7F64BE001477D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4EM292C9RV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5EDEF051E7F64BD001477D6;
+					};
+					D5EDEF2C1E7F64BE001477D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4EM292C9RV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5EDEF051E7F64BD001477D6;
+					};
+				};
+			};
+			buildConfigurationList = D5EDEF011E7F64BD001477D6 /* Build configuration list for PBXProject "SanJiKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5EDEEFD1E7F64BD001477D6;
+			productRefGroup = D5EDEF071E7F64BD001477D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EDEF051E7F64BD001477D6 /* SanJiKit */,
+				D5EDEF211E7F64BE001477D6 /* SanJiKitTests */,
+				D5EDEF2C1E7F64BE001477D6 /* SanJiKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EDEF041E7F64BD001477D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EDEF1C1E7F64BE001477D6 /* LaunchScreen.storyboard in Resources */,
+				D5EDEF191E7F64BE001477D6 /* Assets.xcassets in Resources */,
+				D5EDEF141E7F64BD001477D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EDEF201E7F64BE001477D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EDEF2B1E7F64BE001477D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EDEF021E7F64BD001477D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EDEF111E7F64BD001477D6 /* ViewController.m in Sources */,
+				D5EDEF0E1E7F64BD001477D6 /* AppDelegate.m in Sources */,
+				D5EDEF171E7F64BE001477D6 /* SanJiKit.xcdatamodeld in Sources */,
+				D5EDEF0B1E7F64BD001477D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EDEF1E1E7F64BE001477D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EDEF271E7F64BE001477D6 /* SanJiKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EDEF291E7F64BE001477D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EDEF321E7F64BE001477D6 /* SanJiKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5EDEF241E7F64BE001477D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5EDEF051E7F64BD001477D6 /* SanJiKit */;
+			targetProxy = D5EDEF231E7F64BE001477D6 /* PBXContainerItemProxy */;
+		};
+		D5EDEF2F1E7F64BE001477D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5EDEF051E7F64BD001477D6 /* SanJiKit */;
+			targetProxy = D5EDEF2E1E7F64BE001477D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5EDEF121E7F64BD001477D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EDEF131E7F64BD001477D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5EDEF1A1E7F64BE001477D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EDEF1B1E7F64BE001477D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5EDEF341E7F64BE001477D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5EDEF351E7F64BE001477D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5EDEF371E7F64BE001477D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EM292C9RV;
+				INFOPLIST_FILE = SanJiKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lenso.SanJiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5EDEF381E7F64BE001477D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EM292C9RV;
+				INFOPLIST_FILE = SanJiKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lenso.SanJiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5EDEF3A1E7F64BE001477D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4EM292C9RV;
+				INFOPLIST_FILE = SanJiKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lenso.SanJiKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanJiKit.app/SanJiKit";
+			};
+			name = Debug;
+		};
+		D5EDEF3B1E7F64BE001477D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4EM292C9RV;
+				INFOPLIST_FILE = SanJiKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lenso.SanJiKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanJiKit.app/SanJiKit";
+			};
+			name = Release;
+		};
+		D5EDEF3D1E7F64BE001477D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4EM292C9RV;
+				INFOPLIST_FILE = SanJiKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lenso.SanJiKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SanJiKit;
+			};
+			name = Debug;
+		};
+		D5EDEF3E1E7F64BE001477D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4EM292C9RV;
+				INFOPLIST_FILE = SanJiKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lenso.SanJiKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SanJiKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EDEF011E7F64BD001477D6 /* Build configuration list for PBXProject "SanJiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EDEF341E7F64BE001477D6 /* Debug */,
+				D5EDEF351E7F64BE001477D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EDEF361E7F64BE001477D6 /* Build configuration list for PBXNativeTarget "SanJiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EDEF371E7F64BE001477D6 /* Debug */,
+				D5EDEF381E7F64BE001477D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5EDEF391E7F64BE001477D6 /* Build configuration list for PBXNativeTarget "SanJiKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EDEF3A1E7F64BE001477D6 /* Debug */,
+				D5EDEF3B1E7F64BE001477D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5EDEF3C1E7F64BE001477D6 /* Build configuration list for PBXNativeTarget "SanJiKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EDEF3D1E7F64BE001477D6 /* Debug */,
+				D5EDEF3E1E7F64BE001477D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5EDEF151E7F64BE001477D6 /* SanJiKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5EDEF161E7F64BE001477D6 /* SanJiKit.xcdatamodel */,
+			);
+			currentVersion = D5EDEF161E7F64BE001477D6 /* SanJiKit.xcdatamodel */;
+			path = SanJiKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5EDEEFE1E7F64BD001477D6 /* Project object */;
+}
