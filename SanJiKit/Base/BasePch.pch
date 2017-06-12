@@ -1,0 +1,23 @@
+//
+//  BasePch.pch
+//  SanJiKit
+//
+//  Created by ioskaifa on 2017/3/20.
+//  Copyright © 2017年 ioskaifa. All rights reserved.
+//
+
+#ifndef BasePch_pch
+#define BasePch_pch
+
+#define KSW [UIScreen mainScreen].bounds.size.width
+#define KSH [UIScreen mainScreen].bounds.size.height
+#define BLW [UIScreen mainScreen].bounds.size.width/375.0
+#define BLH [UIScreen mainScreen].bounds.size.height/667.0
+#define TabH 49
+#define NavH 64
+#define StaH 20
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* BasePch_pch */
